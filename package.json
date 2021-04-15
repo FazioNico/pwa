@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "deploy:github": "ng deploy --base-href=/pwa/",
-    "deploy:ftp": "ng build --prod --base-href=/~fazio/PwaDemo/",
+    "deploy:ftp": "ng build --prod --base-href=/~fazio/PwaDemo/ && node deploy",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
