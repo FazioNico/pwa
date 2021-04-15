@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "deploy:github": "ng deploy --base-href=/pwa/ --repo=https://github.com/fazionico/pwa.git --name=fazionico --email=contact@nicolasfazio.ch --no-silent",
+    "deploy:github": "ng deploy --base-href=/pwa/ --repo=https://github.com/fazionico/pwa.git --name=fazionico --email=17125807+FazioNico@users.noreply.github.com --no-silent",
     "deploy:ftp": "ng build --prod --base-href=/~fazio/PwaDemo/ && node deploy",
     "test": "ng test",
     "lint": "ng lint",
