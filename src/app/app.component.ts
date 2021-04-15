@@ -16,8 +16,9 @@ export class AppComponent {
   ) {
     this.checkDevice();
     this._sw.available.subscribe((res) =>{
+      console.log('--->', res);
       if (res) {
-        this.displayPopUpUpdate() 
+        this.displayPopUpUpdate();
       }
     });
   }
